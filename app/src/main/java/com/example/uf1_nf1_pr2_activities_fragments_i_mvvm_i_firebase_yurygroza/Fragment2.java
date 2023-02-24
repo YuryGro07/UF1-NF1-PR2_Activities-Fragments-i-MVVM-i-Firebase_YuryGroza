@@ -40,7 +40,7 @@ public class Fragment2 extends Fragment {
             public void onClick(View view) {
                 String dadesCompartides = mEtRebreDades.getText().toString();
                 mItemModelView.setDadesLiveData(dadesCompartides);
-    
+
             }
         });
         return v;
