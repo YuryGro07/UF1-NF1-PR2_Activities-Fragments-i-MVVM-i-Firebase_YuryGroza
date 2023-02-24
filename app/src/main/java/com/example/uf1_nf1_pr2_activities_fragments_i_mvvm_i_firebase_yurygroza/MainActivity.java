@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             mTvDadesCompartides.setText(itemObservat);
         });
         CarregaFragment(new Fragment1());
-        //btn
+        //btn vv
         mBtnFragment1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
