@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:padding="30dp"
+    android:background="#BBE">
+
+    <EditText
+        android:id="@+id/ET_DadesFL2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#96ACB4"
+        android:textSize="15sp"
+        android:hint="Introdueix les dades"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/BTN_EnviarDadesCompartidesFL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar dades"
+        android:layout_below="@id/ET_DadesFL2"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>
